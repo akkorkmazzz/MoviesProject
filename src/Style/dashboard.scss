@@ -1,0 +1,133 @@
+.main-content{
+    width: 100%;
+    display: flex;
+    // background-color: red;
+    @media screen and (max-width: 1110px){
+        display: block;
+    }
+    .left-content{
+        width: 75%;
+        @media screen and (max-width: 1550px){
+            width: 73.5%;
+        }
+        @media screen and (max-width: 1530px){
+            width: 73%;
+        }
+        @media screen and (max-width: 1500px){
+            width: 72.5%;
+        }
+        @media screen and (max-width: 1475px){
+            width: 72%;
+        }
+        @media screen and (max-width: 1440px){
+            width: 71.5%;
+        }
+        @media screen and (max-width: 1420px){
+            width: 70%;
+        }
+        @media screen and (max-width: 1360px){
+            width: 69.5%;
+        }
+        @media screen and (max-width: 1340px){
+            width: 69%;
+        }
+        @media screen and (max-width: 1320px){
+            width: 68.5%;
+        }
+        @media screen and (max-width: 1310px){
+            width: 60%;
+        }
+        @media screen and (max-width: 1110px){
+            width: 100%;
+        }
+        text-align: center;
+        .left-top-content{
+            display: flex;
+            @media screen and (max-width: 1310px){
+                display:block;
+            }
+            @media screen and (max-width: 1110px){
+                display:flex;
+                width: 97%;
+            }
+            @media screen and (max-width: 940px){
+                display: block;
+                width: 98.5%;
+            }
+            .categories-main-container{
+                width: 45%;
+                @media screen and (max-width: 1655px){
+                    width: 530px;
+                }
+                @media screen and (max-width: 1310px){
+                    width: 100%;
+                }
+                @media screen and (max-width: 1110px){
+                    width: 420px;
+                }
+                @media screen and (max-width: 940px){
+                    width: 100%;
+                }
+            }
+            .watch-time-main-container{
+                width: 100%;
+                @media screen and (max-width: 1110px){
+                    width: 100%;
+                }
+            }
+        }
+        .left-bottom-content{
+            display: flex;
+            width: 100%;
+            @media screen and (max-width: 1310px){
+                position:relative;
+            }
+            @media screen and (max-width: 1110px){
+                position:inherit;
+                width: 97%;
+            }
+            @media screen and (max-width: 940px){
+                display: block;
+                width: 98.5%;
+            }
+            .top-movies-main-container{
+                width: 45%;
+                @media screen and (max-width: 1655px){
+                    width: 360px;
+                }
+                @media screen and (max-width: 1310px){
+                    width: 100%;
+                }
+                @media screen and (max-width: 1110px){
+                    width: 350px;
+                }
+                @media screen and (max-width: 940px){
+                    width: 100%;
+                }
+            }
+            .movies-main-container{
+                width: 100%;
+                @media screen and (max-width: 1310px){
+                    width: 100%;
+                }
+                @media screen and (max-width: 1110px){
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .right-content{
+        width: 25%;
+        @media screen and (max-width: 1550px){
+            width: 360px;
+        }
+        @media screen and (max-width: 1310px){
+            width: 40%;
+        }
+        @media screen and (max-width: 1110px){
+            width: 98.5%;
+        }
+        
+    }
+
+}

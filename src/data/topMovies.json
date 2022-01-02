@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "The Shawshank Redemption",
+        "point": "9.2"
+    },
+    {
+        "id": 2,
+        "name": "The Godfather",
+        "point": "9.1"
+    },
+    {
+        "id": 3,
+        "name": "The Godfather: Part II",
+        "point": "9.0"
+    },
+    {
+        "id": 4,
+        "name": "The Dark Knight",
+        "point": "9.0"
+    },
+    {
+        "id": 5,
+        "name": "12 Angry Men",
+        "point": "8.9"
+    },
+    {
+        "id": 6,
+        "name": "Schindler's List",
+        "point": "8.9"
+    }
+]

@@ -1,0 +1,75 @@
+$first-color: #FFFFFF;
+
+.watch-time-container{
+    // width: 540px;,
+    height: 351px;
+    background-color: $first-color;
+    box-shadow: 0px 2px 10px rgba(76, 141, 235, 0.10077);
+    margin-top: 19px;
+    margin-left: 17px;
+    @media screen and (max-width: 1310px){
+        height: 411.5px;
+        margin-left: 0px;
+    }
+    @media screen and (max-width: 1110px){
+        height: 351px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    @media screen and (max-width: 940px){
+        margin-left: 0px;
+    }
+    .watch-time-title-cont{
+        display: flex;
+        padding-top: 29px;
+        justify-content: space-between;
+        .left-item{
+            padding-left: 23px;
+            .header-title{
+                font-weight: 400;
+                font-size: 20px;
+            }
+        }
+        .right-item{
+            padding-right: 24px;
+            .select-watch-time-box{
+                overflow: hidden;
+                position: relative;
+                &::after{
+                    width: 0; 
+                    height: 0;
+                    position: absolute;
+                    right: 15px;
+                    content:url(../images/dashboard/1.png);
+                    z-index: 98;
+                }
+                .watch-time-select{
+                   padding-right: 18px;
+                   -webkit-appearance: inherit;
+                    -moz-appearance: inherit;
+                    appearance:inherit;
+                    border: 0;
+                    position: relative;
+                    z-index: 99;
+                    background: none;
+                    line-height: 1.75;
+                    font-weight: 400;
+                    font-size: 12px;
+                    font-family: 'Mulish', sans-serif;
+                }
+            }
+        }
+    }
+    .wt-chart-container{
+        padding-left: 9px;
+        padding-right: 9px;
+        @media screen and (max-width: 1310px){
+            padding-top: 20px;
+            padding-right: 30px;
+        }
+        @media screen and (max-width: 1110px){
+            padding-top: 9px;
+            padding-right: 20px;
+        }
+    }
+}

@@ -1,0 +1,160 @@
+$first-color: #FFFFFF;
+
+.movie-chart-container{
+    height: 351px;
+    background-color: $first-color;
+    box-shadow: 0px 2px 10px rgba(76, 141, 235, 0.10077);
+    margin-top: 19px;
+    @media screen and (max-width: 1655px){
+        width: 360px;
+    }
+    @media screen and (max-width: 1310px){
+        width: 100%;
+        height: 371px;
+    }
+    @media screen and (max-width: 1110px){
+        height: 351px;
+    }
+    @media screen and (max-width: 365px){
+        height: 365px;
+    }
+    .movie-chart-title-cont{
+        display: flex;
+        padding-top: 29px;
+        justify-content: space-between;
+        .left-item{
+            padding-left: 10px;
+            .header-title{
+                font-weight: 400;
+                font-size: 20px;
+            }
+        }
+        .right-item{
+            padding-right: 24px;
+            .select-categories-box{
+                overflow: hidden;
+                position: relative;
+                &::after{
+                    width: 0; 
+                    height: 0;
+                    position: absolute;
+                    right: 15px;
+                    content:url(../images/dashboard/1.png);
+                    z-index: 98;
+                }
+                .categories-select{
+                   padding-right: 18px;
+                   -webkit-appearance: inherit;
+                    -moz-appearance: inherit;
+                    appearance:inherit;
+                    border: 0;
+                    position: relative;
+                    z-index: 99;
+                    background: none;
+                    line-height: 1.75;
+                    font-weight: 400;
+                    font-size: 12px;
+                    font-family: 'Mulish', sans-serif;
+                }
+            }
+        }
+    }
+    .main-chart-container{
+        align-items: center;
+        justify-content: center;
+    }
+    .chart-widget-list{
+        justify-content: space-between;
+        margin-top: 20px;
+        display: flex;
+        @media screen and (max-width: 365px){
+            display:inline-block;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0px;
+        }
+        .first-movie{
+            display: flex;
+            justify-content: center;
+            .action{
+                width: 12px;
+                height: 12px;
+                border-radius: 3px;
+                background-color: #4C8DEB;
+                margin-left: 31px;
+                @media screen and (max-width: 410px){
+                    margin-left: 25px;
+                }
+                @media screen and (max-width: 395px){
+                    margin-left: 20px;
+                }
+                @media screen and (max-width: 385px){
+                    margin-left: 15px;
+                }
+                @media screen and (max-width: 375px){
+                    margin-left: 10px;
+                }
+                @media screen and (max-width: 365px){
+                    margin-left: 0px;
+                }
+            }
+        }
+        .second-movie{
+            display: flex;
+            .comedy{
+                width: 12px;
+                height: 12px;
+                border-radius: 3px;
+                background-color: #5AD6B0;
+                margin-left: 20px;
+                @media screen and (max-width: 440px){
+                    margin-left: 10px;
+                }
+                @media screen and (max-width: 365px){
+                    margin-left: 30px;
+                }
+            }
+        }
+        .third-movie{
+            display: flex;
+            .romantic{
+                width: 12px;
+                height: 12px;
+                border-radius: 3px;
+                background-color: #FFAB49;
+                margin-left: 20px;
+                @media screen and (max-width: 440px){
+                    margin-left: 10px;
+                }
+                @media screen and (max-width: 365px){
+                    margin-left: 30px;
+                }
+            }
+        }
+        .fourth-movie{
+            display: flex;
+            .drama{
+                width: 12px;
+                height: 12px;
+                border-radius: 3px;
+                background-color: #EE5D70;
+                margin-left: 20px;
+                @media screen and (max-width: 440px){
+                    margin-left: 10px;
+                }
+                @media screen and (max-width: 365px){
+                    margin-left: 30px;
+                }
+            }
+            span{
+                margin-right: 30px;
+            }
+        }
+        span{
+            font-weight: 400;
+            font-size: 12px;
+            margin-left: 5px;
+            padding-bottom: 2px;
+        }
+    }
+}

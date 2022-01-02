@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "hour": "12:03AM",
+        "date": "11-02-2018",
+        "title": "Invoice Sent",
+        "content": "Invoice <span className='blue-content'>#0076</span> of amount <strong>$1300</strong> has been emailed to email@address.com, email2@address.com",
+        "icon": 1
+    },
+    {
+        "id": 2,
+        "hour": "02:41PM",
+        "date": "08-02-2018",
+        "title": "Invoice Sent",
+        "content": "Invoice <span className='blue-content'>#0075</span> of amount <strong>$2000</strong> has been emailed to email@address.com",
+        "icon": 1
+    },
+    {
+        "id": 3,
+        "hour": "02:57PM",
+        "date": "11-01-2018",
+        "title": "Payment Received",
+        "content": "Invoice <span className='blue-content'>#0072</span> of amount <strong>$1300</strong> has been paid and added to your account.",
+        "icon": 2
+    },
+    {
+        "id": 4,
+        "hour": "09:49AM",
+        "date": "04-01-2018",
+        "title": "Invoice Generated",
+        "content": "Invoice <span className='blue-content'>#0076</span> of amount <strong>$1300</strong> has been emailed to email@address.com, email2@address.com",
+        "icon": 3,
+        "send": "Send now"
+    },
+    {
+        "id": 5,
+        "hour": "03:54PM",
+        "date": "10-12-2017",
+        "title": "Payment Received",
+        "content": "Invoice <span className='blue-content'>#0070</span> of amount <strong>$900</strong> has been paid and added to your account.",
+        "icon": 2
+    },
+    {
+        "id": 6,
+        "hour": "02:06PM",
+        "date": "11-11-2017",
+        "title": "Invoice Generated",
+        "content": "Invoice <span className='blue-content'>#0075</span> of amount <strong>$2000</strong>  has been generated and is ready to be sent. ",
+        "icon": 3,
+        "send": "Send now"
+    }
+]

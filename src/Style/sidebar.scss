@@ -1,0 +1,40 @@
+//COLORS
+$sidebar-background-color: linear-gradient(180deg, #4C8DEB 0%, #4C60EB 100%);
+$first-color: #FFFFFF;
+$icons-hover-color: #2350BC;
+
+.main-sidebar-container{
+    position:fixed;
+    background: $sidebar-background-color;
+    z-index: 2;
+    width: 60px;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    .photo-container{
+        width: 44px;
+        height: 44px;
+        background-color: $first-color;
+        margin-left: 8px;
+        margin-top: 13px;
+        border-radius: 50%;
+    }
+    .icon-container{
+        width: 45px;
+        height: 45px;
+        margin-top: 39px;
+        margin-left: 8px;
+        margin-right: 8px;
+        border-radius: 5px;
+        &:hover{
+            background-color: $icons-hover-color;
+        }
+        img{
+            padding-top: 13px;
+            color: $first-color;
+        }
+    }
+    .click-button{
+        background-color: $icons-hover-color;
+    }
+}

@@ -1,0 +1,22 @@
+$bg-color: #F9FAFF;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $bg-color;
+    font-family: 'Mulish', sans-serif;
+
+}
+.App{
+    .main-container{
+        .content{
+            z-index: 0;
+            padding-top: 102px;
+            padding-left: 77px;
+            width: 100%
+        }
+    }
+}
